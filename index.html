@@ -1,42 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>JavaScript Calculator</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <div class="calculator">
-    <div id="display" class="display">0</div>
+    <div class="calculator">
+        <input type="text" id="display" value="0" disabled>
 
-    <div class="buttons">
-      <button class="clear">C</button>
-      <button class="operator" data-operator="/">÷</button>
-      <button class="operator" data-operator="*">×</button>
+        <div class="buttons">
+            <button class="operator" data-operator="C">C</button>
+            <button class="operator" data-operator="/">÷</button>
+            <button class="operator" data-operator="*">×</button>
 
-      <button class="number" data-number="7">7</button>
-      <button class="number" data-number="8">8</button>
-      <button class="number" data-number="9">9</button>
-      <button class="operator" data-operator="-">−</button>
+            <button class="number" data-number="7">7</button>
+            <button class="number" data-number="8">8</button>
+            <button class="number" data-number="9">9</button>
+            <button class="operator" data-operator="-">-</button>
 
-      <button class="number" data-number="4">4</button>
-      <button class="number" data-number="5">5</button>
-      <button class="number" data-number="6">6</button>
-      <button class="operator" data-operator="+">+</button>
+            <button class="number" data-number="4">4</button>
+            <button class="number" data-number="5">5</button>
+            <button class="number" data-number="6">6</button>
+            <button class="operator" data-operator="+">+</button>
 
-      <button class="number" data-number="1">1</button>
-      <button class="number" data-number="2">2</button>
-      <button class="number" data-number="3">3</button>
-      <button class="number" data-number="0">0</button>
+            <button class="number" data-number="1">1</button>
+            <button class="number" data-number="2">2</button>
+            <button class="number" data-number="3">3</button>
+            <button class="number" data-number="0">0</button>
 
-      <button class="number" data-number=".">.</button>
-      <button class="equals">=</button>
+            <button class="number" data-number=".">.</button>
+            <button class="equals">=</button>
+        </div>
     </div>
-  </div>
 
-  <script src="script.js"></script>
+    <!-- JS -->
+    <script src="script.js"></script>
+
 </body>
-
 </html>
-
